@@ -1,8 +1,10 @@
 {
-  "tasks": {
-    "dev": "deno run --watch main.ts"
-  },
-  "imports": {
-    "@std/assert": "jsr:@std/assert@1"
+  "name": "@justomat/biome-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./biome.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justomat/biome-config.git"
   }
 }
