@@ -2,9 +2,15 @@
   "name": "@justomat/biome-config",
   "version": "0.1.0",
   "license": "MIT",
-  "exports": "./biome.json",
+  "exports": {
+    ".": "./biome.json",
+    "./jest": "./jest.biome.json"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/justomat/biome-config.git"
+  },
+  "imports": {
+    "@biomejs/biome": "npm:@biomejs/biome@^1.9.4"
   }
 }
