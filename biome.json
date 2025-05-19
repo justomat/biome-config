@@ -34,6 +34,7 @@
         "noImplicitBoolean": "off",
         "noUselessElse": "warn",
         "useFilenamingConvention": "off",
+        "useBlockStatements": "off",
         "useNamingConvention": {
           "level": "error",
           "options": {
@@ -52,7 +53,7 @@
     }
   },
   "formatter": {
-    "enabled": true,
+    "useEditorconfig": true,
     "formatWithErrors": false,
     "attributePosition": "auto",
     "indentStyle": "tab",
